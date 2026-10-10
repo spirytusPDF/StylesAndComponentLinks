@@ -1,0 +1,18 @@
+.active{
+    background-color: rgb(255, 164, 164);
+    color: rgb(190, 241, 255);
+
+}
+.dark{
+    background-color: black;
+    color: beige;
+}
+.light{
+    background-color: aliceblue;
+    color: black;
+}
+
+section{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}

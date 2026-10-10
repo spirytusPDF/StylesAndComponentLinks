@@ -1,0 +1,16 @@
+<section class="taskFour">
+    <div class="modelWindow">
+        <button class="btnClose" (click)="changeState()">{{ isClosed ? 'Open' : 'Close' }}</button>
+        <div [style.display]="isClosed ? 'none' : 'block'">
+            <ng-content></ng-content>
+        </div>
+        
+    </div>
+</section>
+
+<section class="taskFive">
+    <div>
+        <app-child-two (onColorSend)="handleChildMessage($event)"></app-child-two>
+        <p [style.color]="textColor">Received color from child!</p>
+    </div>
+</section>
